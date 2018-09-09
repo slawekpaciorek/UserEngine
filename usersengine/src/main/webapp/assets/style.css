@@ -1,0 +1,252 @@
+@keyframes blinking {
+    from{opacity: 0}
+    to{opacity:1}
+}
+
+.header{
+    height: 10vh;
+    width: 100%;
+    position: fixed;
+    background-color: black;
+    padding: 20px;
+    z-index: 999;
+}
+.header div>span{
+    font-family: "Bangers";
+    font-weight: lighter;
+    font-weight: bolder;
+    color:white;
+    font-variant: small-caps;
+    font-size: 3em;
+    letter-spacing: 3px;
+    text-shadow: 3px 2px darkred;
+}
+
+.header div:last-child{
+    text-align: right;
+}
+
+.header button{
+    width: 120px;
+    height: 3em;
+}
+
+.mainBox{
+    width: 100%;
+    padding-top: 10vh;
+    height:100vh;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.mainBox form{
+    display: block;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+
+}
+
+.buttonHolder{
+    display: block;
+    position: relative;
+    float: left;
+    width: 50%;
+    height: 50%;
+    text-align: center;
+}
+
+.buttonHolder button{
+    display: block;
+    margin: auto;
+    width: 100%;
+    position: absolute;
+    top: 75%;
+    color:white;
+}
+
+.buttonHolder:hover{
+    background-color: black;
+    color: white;
+}
+
+.buttonHolder p{
+    margin-top: 15%;
+    font-size: 7em;
+    font-family: "Passion One";
+    letter-spacing: 1px;
+
+}
+
+input{
+    margin: 20px auto;
+}
+#user{
+    padding: 5vh;
+    text-align: center;
+}
+
+#user input{
+    width : 100%;
+    border: none;
+    border-bottom: solid 2px lightgrey;
+}
+
+#user label{
+    width: 50%;
+    font-family: "Montserrat";
+    text-align: left;
+}
+
+#user button{
+    display: inline-block;
+    width: 50%;
+}
+
+#user div{
+    display: block;
+    text-align: center;
+    width: 100%;
+}
+
+#check{
+    height: 30vh;
+    padding: 5vh;
+    width: 100%;
+    text-align: center;
+}
+
+#check input{
+    width : 100%;
+    border: none;
+    border-bottom: solid 2px lightgrey;
+}
+
+#check label{
+    font-family: "Montserrat";
+    text-align: left;
+    width: 50%;
+}
+
+#check button{
+    display: inline-block;
+    width: 50%;
+}
+
+.userTable{
+    display: block;
+    margin: auto;
+    width:80%;
+    margin-top: 20px;
+
+}
+.searchInfo{
+    margin-top: 20px;
+}
+
+h2{
+    display: block;
+    margin: auto;
+    width: 100%;
+    padding: 5px;
+    font-size: 2em;
+    font-family: "Prosto One";
+    letter-spacing: 2px;
+    color: #FFF;
+    background-color: dimgray;
+    text-align: center;
+
+}
+
+.userTable tr{
+    width: 100%;
+    padding: 5px;
+    border-bottom: lightgrey solid 2px;
+}
+
+.userTable tr:last-child{
+    border-bottom: none;
+}
+
+.userTable tr:hover{
+    background-color: lightgray;
+}
+
+.userTable th{
+    background-color: dimgray;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+.userTable tr>td:first-child{
+    width: 10%;
+    border-right: solid 2px lightgray;
+}
+
+.userTable tr>td:last-child{
+    width: 10%;
+    border-left: solid 2px lightgrey;
+    border-right: none !important;
+}
+
+.userTable tr>td:nth-of-type(1n+2){
+    border-right: solid 2px lightgrey;
+}
+
+.userTable td{
+    padding: 10px;
+    text-align: center;
+    width: 23.3%;
+}
+
+.userTable td:hover{
+    border-color: dimgray;
+}
+
+.userTable button{
+    width: 100px;
+    margin-top: 5px;
+    color: white;
+}
+
+.alert{
+    text-align: center;
+    font-variant: small-caps;
+    font-size: 24px;
+    font-family: "Ubuntu";
+    padding: 7.5px;
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    width: 70%;
+    display: block;
+    margin: auto;
+    animation-name: blinking;
+    animation-duration: 1s;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
+
+}
+
+.info{
+
+    text-align: center;
+    font-size: 18px;
+    font-family: "Ubuntu";
+    padding: 7.5px;
+    background-color: #2f873c;
+    color: white;
+    border-radius: 5px;
+    width: 45%;
+    display: block;
+    margin: auto;
+
+}
+
+button{
+    color: white;
+}
+
+
